@@ -1,0 +1,119 @@
+.body .firstcomponent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.body .firstcomponent .image{
+    width:10% ;
+    height: 15%;
+}
+
+.body .firstcomponent .navs{
+    display: flex;
+   gap: 45px;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.body .firstcomponent .but .b{
+    color: white;
+    background-color: rgb(251,175,27);
+    height: 50px;
+    padding: 10px 20px ;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.body .firstcomponent .but .b1{
+    height: 50px;
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+.body .firstcomponent .but .b{
+    margin-right: 20px;
+}
+
+.body .secondcomponent{
+    width: 100%;
+    height: 550px;
+    /* background-color: red; */
+    margin-top: 55px;
+    display: flex;
+}
+
+.body .secondcomponent .text{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.body .secondcomponent .image1{
+    width: 50%;
+    height: 100%;
+}
+
+.body .secondcomponent .text .bigtext{
+    color: rgb(5,7,148);
+    font-size: 61px;
+    font-weight: 1000;
+    margin-top: 50px;
+}
+
+.body .secondcomponent .text .smalltext{
+    font-size: larger;
+    margin-top: 35px;
+    line-height: 35px;
+}
+
+.body .secondcomponent .text .button1 .bot{
+    height: 50px;
+    background: rgb(251,175,27);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+
+.body .secondcomponent .text .button1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.body .secondcomponent .text .circleimage .circle{
+    width: 25%;
+    height: 35px;
+    margin-top: 50px;
+
+}
+
+.body .secondcomponent .text .circleimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body .secondcomponent .text .circleimage .tiny{
+    margin-top: 40px;
+}
+
+.body .secondcomponent .images .image2{
+    width: 100%;
+    height: 100%;
+    object-position: cover;
+}
